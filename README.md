@@ -1,7 +1,7 @@
 # Render Status Badge 🛠️🟢
 
 [![npm version](https://img.shields.io/npm/v/render-status-badge)](https://www.npmjs.com/package/render-status-badge)
-[![GitHub License](https://img.shields.io/github/license/yourusername/render-status-badge)](https://github.com/nia-cloud-official/render-status-badge/blob/main/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/nia-cloud-official/render-status)](https://github.com/nia-cloud-official/render-status-badge/blob/main/LICENSE)
 [![Render Status](https://img.shields.io/badge/Render-Live-brightgreen?logo=render&style=for-the-badge)](https://github.com/nia-cloud-official/render-status-badge)
 
 A dynamic status badge generator for Render.com deployments. Automatically displays your service's deploy status (Live, Failed, Deploying) in your README or docs using Shields.io and Render's API.
