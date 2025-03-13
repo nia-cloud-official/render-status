@@ -69,7 +69,7 @@ jobs:
         run: npx render-status-badge >> badge-url.txt
       - name: Update README
         run: |
-          sed -i "s|<!-- RENDER_BADGE -->.*|![Render Status]($(cat badge-url.txt))|" README.md
+          sed -i "s|https://img.shields.io/badge/Render-Unknown-lightgrey?logo=render
           git commit -am "Update Render status badge" && git push
 ```
 
