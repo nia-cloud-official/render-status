@@ -21,7 +21,7 @@ jobs:
           RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
           RENDER_SERVICE_ID: ${{ secrets.RENDER_SERVICE_ID }}
         run: |
-          BADGE_URL=$(node render-status.js)
+          BADGE_URL=$(node index.js)
           echo "BADGE_URL=$BADGE_URL" >> $GITHUB_OUTPUT
       - name: Update README
         run: |
